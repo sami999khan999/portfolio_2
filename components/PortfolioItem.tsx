@@ -18,7 +18,7 @@ const PortfolioItem = ({ portfolio }: { portfolio: PortfolioItem }) => {
   const [currentImg, setCurrentImg] = useState(portfolio.images[0]);
 
   return (
-    <div className="box">
+    <div className="box" data-aos="fade-down">
       <h4 className="mb-5">{portfolio.title}</h4>
       <div className="relative w-full h-[255px] rounded-lg overflow-hidden group cursor-pointer mb-5 flex items-center justify-center shadow-xl">
         <Image

@@ -1,4 +1,13 @@
-import { Facebook, Linkedin, Mail, MapPin, Phone, Twitter } from "lucide-react";
+import {
+  Facebook,
+  Github,
+  Linkedin,
+  Mail,
+  MapPin,
+  Phone,
+  Twitter,
+  YoutubeIcon,
+} from "lucide-react";
 
 export const navLinks = [
   {
@@ -363,26 +372,40 @@ export const faqs = [
       "Yes, I offer website maintenance services. I will ensure that your website is up-to-date and running smoothly.",
   },
 ];
+
 export const socialLinks = [
   {
     id: 1,
     label: "Facebook",
     icon: Facebook,
-    url: "#",
+    url: "https://www.facebook.com/sami999khan999",
   },
   {
     id: 2,
     label: "Linkedin",
     icon: Linkedin,
-    url: "#",
+    url: "https://www.linkedin.com/in/sami999khan999/",
   },
   {
     id: 3,
     label: "Twitter",
     icon: Twitter,
-    url: "#",
+    url: "https://twitter.com/sami999khan999",
+  },
+  {
+    id: 4,
+    label: "Twitter",
+    icon: Github,
+    url: "https://github.com/sami999khan999",
+  },
+  {
+    id: 5,
+    label: "Twitter",
+    icon: YoutubeIcon,
+    url: "https://www.youtube.com/@Logarithmic_",
   },
 ];
+
 export const contactDetails = [
   {
     id: 1,

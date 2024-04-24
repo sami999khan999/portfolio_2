@@ -10,9 +10,13 @@ import Logo from "./Logo";
 const Header = () => {
   return (
     <header className="flex justify-between items-center h-20 max-width border-b border-peach">
-      <Logo />
+      <div data-aos="fade-right">
+        <Logo />
+      </div>
 
-      <Nav className="max-tablet:hidden" />
+      <div data-aos="fade-down">
+        <Nav className="max-tablet:hidden" />
+      </div>
       <MobileNav />
     </header>
   );

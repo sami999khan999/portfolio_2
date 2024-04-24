@@ -38,6 +38,10 @@
   h6 {
     @apply font-semibold;
   }
+
+  * {
+    @apply scroll-smooth;
+  }
 }
 
 @layer utilities {

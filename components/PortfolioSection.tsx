@@ -33,6 +33,8 @@ const PortfolioSection = ({
         className="flex flex-col tablet:flex-row border tablet:border-purple/15 w-max gap-6 mx-auto tablet:gap-[3rem]
       text-lg py-1 px-1  tablet:rounded-full rounded-lg text-center font-semibold
       "
+        data-aos="fade-down"
+        data-aos-delay={500}
       >
         {allCategories.map((item, index) => (
           <div
@@ -47,7 +49,11 @@ const PortfolioSection = ({
         ))}
       </div>
 
-      <div className="grid grid-cols-1 gap-7 mt-16 desktop:grid-cols-3 bigMobile:grid-cols-2">
+      <div
+        className="grid grid-cols-1 gap-7 mt-16 desktop:grid-cols-3 bigMobile:grid-cols-2"
+        data-aos="fade-down"
+        data-aos-delay={600}
+      >
         {filteredProjects.map((project, index) => (
           <PortfolioItem key={index} portfolio={project} />
         ))}

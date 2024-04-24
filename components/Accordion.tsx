@@ -14,7 +14,11 @@ const Accordion = ({ data }: { data: AccordionData[] }) => {
   return (
     <div className="flex flex-col gap-3">
       {data.map((item, index) => (
-        <div className="bg-peach-600 px-5 rounded-lg" key={index}>
+        <div
+          className="bg-peach-600 px-5 rounded-lg"
+          key={index}
+          data-aos="fade-right"
+        >
           <div
             className="flex items-center justify-between cursor-pointer py-5"
             onClick={() => setCurrentActive(index)}

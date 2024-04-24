@@ -34,7 +34,6 @@ const page = () => {
               excellence and personal growth.
             </p>
           </div>
-
           <div
             className="flex gap-5 mt-10 justify-center tablet:justify-start"
             data-aos="fade-down"
@@ -49,7 +48,6 @@ const page = () => {
               View Protfolio <ArrowRight size={16} />
             </Link>
           </div>
-
           {/* stats */}
           <div
             className="bg-peach-400 w-full py-8 px-10 rounded-l-lg mt-14 flex-wrap gap-12 hidden tablet:flex"
@@ -75,7 +73,6 @@ const page = () => {
               <p className="text-grey-600">Happy Customers</p>
             </div>
           </div>
-
           <div className="mt-16 flex flex-col gap-3 tablet:hidden">
             <div className="py-8 px-10 rounded-lg bg-peach-400 text-center col-span-1">
               <h3>
@@ -116,12 +113,18 @@ const page = () => {
 
       {/* skill section */}
       <section className="max-width section-padding mt-6">
-        <SectionHeading
-          title="Skills"
-          subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, nobis!"
-        />
+        <div data-aos="fade-up">
+          <SectionHeading
+            title="Skills"
+            subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, nobis!"
+          />
+        </div>
 
-        <div className="grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] tablet:grid-cols-[repeat(auto-fit,minmax(400px,1fr))] gap-3 tablet:gap-6">
+        <div
+          className="grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] tablet:grid-cols-[repeat(auto-fit,minmax(400px,1fr))] gap-3 tablet:gap-6"
+          data-aos="fade-up"
+          data-aos-delay={200}
+        >
           {skills.map((skill, index) => (
             <div key={index} className="box flex flex-col items-center gap-5">
               <div className="w-16 h-16 rounded bg-purple flex items-center justify-center flex-shrink-0 mb-2">
@@ -144,12 +147,17 @@ const page = () => {
 
       {/* benefits section */}
       <section className="max-width section-padding">
-        <SectionHeading
-          title="Benefits"
-          subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, nobis!"
-        />
+        <div data-aos="fade-up">
+          <SectionHeading
+            title="Benefits"
+            subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, nobis!"
+          />
+        </div>
 
-        <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] tablet:grid-cols-[repeat(auto-fit,minmax(600px,1fr))] gap-3 tablet:gap-6 mb-3 tablet:mb-6">
+        <div
+          className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] tablet:grid-cols-[repeat(auto-fit,minmax(600px,1fr))] gap-3 tablet:gap-6 mb-3 tablet:mb-6"
+          data-aos="fade-left"
+        >
           {benefits.slice(0, 2).map((benefit, index) => (
             <div key={index} className="box">
               <h5 className="text-gray-700 mb-2">{benefit.name}</h5>
@@ -157,7 +165,11 @@ const page = () => {
             </div>
           ))}
         </div>
-        <div className="grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] tablet:grid-cols-[repeat(auto-fill,minmax(400px,1fr))] gap-3 tablet:gap-6">
+        <div
+          className="grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] tablet:grid-cols-[repeat(auto-fill,minmax(400px,1fr))] gap-3 tablet:gap-6"
+          data-aos="fade-right"
+          sata-aos-delay={200}
+        >
           {benefits.slice(2).map((benefit, index) => (
             <div key={index} className="box">
               <h5 className="text-gray-700 mb-2">{benefit.name}</h5>
@@ -169,12 +181,17 @@ const page = () => {
 
       {/* protfolio section */}
       <section className="section-padding max-width">
-        <SectionHeading
-          title="My Work"
-          subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, nobis!"
-        />
+        <div data-aos="fade-up">
+          <SectionHeading
+            title="My Work"
+            subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, nobis!"
+          />
+        </div>
 
-        <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,ifr))] tablet:grid-cols-[repeat(auto-fit,minmax(400px,1fr))] gap-3 tablet:gap-6">
+        <div
+          className="grid grid-cols-[repeat(auto-fit,minmax(300px,ifr))] tablet:grid-cols-[repeat(auto-fit,minmax(400px,1fr))] gap-3 tablet:gap-6"
+          data-aos="fade-right"
+        >
           {portfolios.slice(0, 3).map((portfolio, index) => (
             <PortfolioItem key={index} portfolio={portfolio} />
           ))}
@@ -183,6 +200,7 @@ const page = () => {
         <Link
           href={"/portfolio"}
           className="btn btn-primary mt-10 mx-auto w-max"
+          data-aos="fade-up"
         >
           View all porjects
         </Link>

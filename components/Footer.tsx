@@ -8,7 +8,10 @@ import { contactDetails } from "@/constants";
 
 const Footer = () => {
   return (
-    <footer className="py-10 border-t border-peach max-width ">
+    <footer
+      className="py-10 border-t border-peach max-width"
+      data-aos="fade-up"
+    >
       <div className="flex items-center justify-between">
         <Logo />
         <NavLinks ulClass="max-mobile:hidden" />
