@@ -1,3 +1,4 @@
+import Faq from "@/components/Faq";
 import PortfolioItem from "@/components/PortfolioItem";
 import SectionHeading from "@/components/SectionHeading";
 import { benefits, portfolios, skills } from "@/constants";
@@ -12,30 +13,98 @@ const page = () => {
       <section className="flex items-center max-width flex-col-reverse tablet:flex-row md-10">
         <div className="tablet:w-2/3 mt-10 tablet:mt-0">
           <div className="flex flex-col gap-3 items-center tablet:items-start max-w-2xl text-center tablet:text-left">
-            <p className="px-4 py-2 bg-peach-500 text-gray-600 w-max rounded font-semibold">
+            <p
+              className="px-4 py-2 bg-peach-500 text-gray-600 w-max rounded font-semibold"
+              data-aos="fade-down"
+            >
               Hello There 👋
             </p>
-            <h1 className="text-grey">Sami Khan welcome's you</h1>
-            <p className="text-grey-600">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
-              accusamus, atque ex necessitatibus magnam obcaecati sunt incidunt
-              consectetur dolorum ducimus repellat suscipit maiores.
+            <h1 className="text-grey" data-aos="fade-down" data-aos-delay={100}>
+              Sami Khan welcome's you
+            </h1>
+            <p
+              className="text-grey-600"
+              data-aos="fade-down"
+              data-aos-delay={200}
+            >
+              Embarking on my vocational journey, I offer insights into my
+              professional evolution, navigating challenges and opportunities
+              with innovation and continuous learning. Engaged in diverse
+              projects, I thrive on challenges, driven by a passion for
+              excellence and personal growth.
             </p>
           </div>
 
-          <div className="flex gap-5 mt-10 justify-center tablet:justify-start">
+          <div
+            className="flex gap-5 mt-10 justify-center tablet:justify-start"
+            data-aos="fade-down"
+            data-aos-delay={300}
+          >
             <a href="" className="btn btn-primary">
               Resume
               <Download size={16} />
             </a>
 
-            <Link href={"/protfolio"} className="btn">
+            <Link href={"/portfolio"} className="btn">
               View Protfolio <ArrowRight size={16} />
             </Link>
           </div>
+
+          {/* stats */}
+          <div
+            className="bg-peach-400 w-full py-8 px-10 rounded-l-lg mt-14 flex-wrap gap-12 hidden tablet:flex"
+            data-aos="fade-left"
+            data-aos-delay={100}
+          >
+            <div>
+              <h5>
+                23 <span className="text-purple">+</span>
+              </h5>
+              <p className="text-grey-600">Porjects complited</p>
+            </div>
+            <div>
+              <h5>
+                3 <span className="text-purple">+</span>
+              </h5>
+              <p className="text-grey-600">Years in Web Tech</p>
+            </div>
+            <div>
+              <h5>
+                13 <span className="text-purple">+</span>
+              </h5>
+              <p className="text-grey-600">Happy Customers</p>
+            </div>
+          </div>
+
+          <div className="mt-16 flex flex-col gap-3 tablet:hidden">
+            <div className="py-8 px-10 rounded-lg bg-peach-400 text-center col-span-1">
+              <h3>
+                23 <span className="text-purple">+</span>
+              </h3>
+              <p className="text-grey-600">Porjects complited</p>
+            </div>
+
+            <div className="py-8 px-10 rounded-lg bg-peach-400 text-center col-span-1">
+              <h3>
+                3 <span className="text-purple">+</span>
+              </h3>
+              <p className="text-grey-600">Years in Web Tech</p>
+            </div>
+
+            <div className="py-8 px-10 rounded-lg bg-peach-400 text-center col-span-1">
+              <h3>
+                13 <span className="text-purple">+</span>
+              </h3>
+              <p className="text-grey-600">Happy Customers</p>
+            </div>
+          </div>
         </div>
 
-        <div className="relative w-full tablet:w-1/3 h-[400px] tablet:h-[700px] rounded-b-2xl overflow-hidden">
+        <div
+          className="relative w-full tablet:w-1/3 h-[400px] tablet:h-[700px] rounded-b-2xl overflow-hidden"
+          data-aos="fade-left"
+          data-aos-delay={100}
+        >
           <Image
             src={"/images/hero.png"}
             alt="heroImage"
@@ -117,6 +186,11 @@ const page = () => {
         >
           View all porjects
         </Link>
+      </section>
+
+      {/* testimonial section */}
+      <section>
+        <Faq />
       </section>
     </>
   );

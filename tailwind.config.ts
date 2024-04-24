@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       screens: {
         mobile: "490px",
+        bigMobile: "750px",
         tablet: "1040px",
         desktop: "1620px",
       },

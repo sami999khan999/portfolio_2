@@ -98,7 +98,9 @@ export const portfolios = [
   {
     id: 1,
     title: "Z - Aura Perfume Website",
+    category: "React",
     link: "#",
+    github: "#",
     images: [
       "/images/portfolio-1.png",
       "/images/portfolio-2.png",
@@ -108,7 +110,9 @@ export const portfolios = [
   {
     id: 2,
     title: "Forhelp Charity Website",
+    category: "React",
     link: "#",
+    github: "#",
     images: [
       "/images/portfolio-2.png",
       "/images/portfolio-3.png",
@@ -118,7 +122,9 @@ export const portfolios = [
   {
     id: 3,
     title: "Skill Bridge Website",
+    category: "Next",
     link: "#",
+    github: "#",
     images: [
       "/images/portfolio-3.png",
       "/images/portfolio-1.png",
@@ -128,7 +134,9 @@ export const portfolios = [
   {
     id: 4,
     title: "Current Vandi Website",
+    category: "Next",
     link: "#",
+    github: "#",
     images: [
       "/images/portfolio-4.png",
       "/images/portfolio-5.png",
@@ -138,7 +146,9 @@ export const portfolios = [
   {
     id: 5,
     title: "Fit Fusion Gym Website",
+    category: "React",
     link: "#",
+    github: "#",
     images: [
       "/images/portfolio-5.png",
       "/images/portfolio-6.png",
@@ -148,7 +158,9 @@ export const portfolios = [
   {
     id: 6,
     title: "DX Digital Agency Website",
+    category: "Next",
     link: "#",
+    github: "#",
     images: [
       "/images/portfolio-6.png",
       "/images/portfolio-7.png",
@@ -158,7 +170,9 @@ export const portfolios = [
   {
     id: 7,
     title: "Little Learners Website",
+    category: "React",
     link: "#",
+    github: "#",
     images: [
       "/images/portfolio-7.png",
       "/images/portfolio-8.png",
@@ -168,7 +182,9 @@ export const portfolios = [
   {
     id: 8,
     title: "StreamVibe Website",
+    category: "React",
     link: "#",
+    github: "#",
     images: [
       "/images/portfolio-8.png",
       "/images/portfolio-9.png",
@@ -178,7 +194,9 @@ export const portfolios = [
   {
     id: 9,
     title: "YourBank Website",
+    category: "React",
     link: "#",
+    github: "#",
     images: [
       "/images/portfolio-9.png",
       "/images/portfolio-4.png",
