@@ -5,10 +5,6 @@ import { Metadata } from "next";
 import Image from "next/image";
 import React from "react";
 
-export const metaData: Metadata = {
-  title: " Contact - Sami Khan",
-};
-
 const page = () => {
   return (
     <>
