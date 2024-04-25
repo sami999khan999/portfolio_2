@@ -25,7 +25,7 @@ const page = () => {
             data-aos="fade-down"
             data-aos-delay={200}
           >
-            I'd love to here from you.
+            {`I'd love to here from you.`}
           </h2>
           <p
             className="text-gray-600"

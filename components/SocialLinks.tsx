@@ -14,6 +14,7 @@ const SocialLinks = ({
     <div className={`flex items-center justify-center gap-5 ${className}`}>
       {socialLinks.map((link, index) => (
         <a
+          key={index}
           href={link.url}
           className={`text-gray-700 hover:text-purple transition-colors ${linkStyle}`}
         >

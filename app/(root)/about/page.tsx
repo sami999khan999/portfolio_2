@@ -38,7 +38,7 @@ const page = () => {
               data-aos="fade-down"
               data-aos-delay={100}
             >
-              I'm Sami Khan
+              {` I'm Sami Khan`}
             </h1>
             <p
               className="text-gray-600 "

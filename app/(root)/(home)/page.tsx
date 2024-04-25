@@ -20,7 +20,7 @@ const page = () => {
               Hello There 👋
             </p>
             <h1 className="text-grey" data-aos="fade-down" data-aos-delay={100}>
-              Sami Khan welcome's you
+              {`Sami Khan welcome's you`}
             </h1>
             <p
               className="text-grey-600"
