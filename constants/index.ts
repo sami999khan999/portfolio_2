@@ -340,6 +340,7 @@ export const reviews = [
     ],
   },
 ];
+
 export const faqs = [
   {
     id: 1,
@@ -355,21 +356,21 @@ export const faqs = [
   },
   {
     id: 3,
-    question: "Do you offer website maintenance services?",
+    question: "How do you handle website security?",
     answer:
-      "Yes, I offer website maintenance services. I will ensure that your website is up-to-date and running smoothly.",
+      "Ensuring website security is a top priority for me. I implement best practices such as regular security audits, software updates, HTTPS encryption, and protection against common vulnerabilities like cross-site scripting (XSS) and SQL injection.",
   },
   {
     id: 4,
-    question: "Do you offer website maintenance services?",
+    question: "What technologies do you specialize in?",
     answer:
-      "Yes, I offer website maintenance services. I will ensure that your website is up-to-date and running smoothly.",
+      "I specialize in a range of web development technologies including HTML, CSS, JavaScript, React, Node.js, and MongoDB. I stay updated with the latest trends and technologies to deliver modern and efficient solutions to my clients.",
   },
   {
     id: 5,
-    question: "Do you offer website maintenance services?",
+    question: "Can you provide examples of your previous work?",
     answer:
-      "Yes, I offer website maintenance services. I will ensure that your website is up-to-date and running smoothly.",
+      "Certainly! I have a portfolio showcasing my previous projects. You can view them on my website at [YourPortfolioWebsite.com]. Feel free to explore and see the quality of work I deliver.",
   },
 ];
 

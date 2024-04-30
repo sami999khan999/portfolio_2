@@ -41,9 +41,8 @@ const page = () => {
               data-aos="fade-down"
               data-aos-delay={200}
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-              quibusdam exercitationem, tempore rerum maxime sapiente beatae
-              quos magnam corrupti modi?
+              I specialize in creating intuitive websites with cutting-edge
+              technology, delivering dynamic and engaging user experiences.
             </p>
           </div>
 
@@ -92,7 +91,7 @@ const page = () => {
         <div data-aos="fade-up">
           <SectionHeading
             title="Milestones of my career"
-            subtitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae amet explicabo in possimus, debitis,"
+            subtitle="Highlighting significant achievements and milestones reached along my professional journey."
           />
         </div>
 

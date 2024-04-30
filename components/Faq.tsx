@@ -11,7 +11,7 @@ const Faq = () => {
       <div data-aos="fade-up">
         <SectionHeading
           title="Frequently Asked Question"
-          subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus hic eum porro molestias"
+          subtitle="Your Questions, Answered: A Conversational Corner to Illuminate Your Path"
         />
       </div>
 

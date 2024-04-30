@@ -116,7 +116,7 @@ const page = () => {
         <div data-aos="fade-up">
           <SectionHeading
             title="Skills"
-            subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, nobis!"
+            subtitle="Showcasing my diverse skill set and expertise, spanning from technical proficiencies to soft skills, cultivated throughout my professional endeavors."
           />
         </div>
 
@@ -150,7 +150,7 @@ const page = () => {
         <div data-aos="fade-up">
           <SectionHeading
             title="Benefits"
-            subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, nobis!"
+            subtitle="Illustrating the tangible benefits of my skills and expertise, demonstrating their value in driving successful outcomes and achieving organizational objectives."
           />
         </div>
 
@@ -184,7 +184,7 @@ const page = () => {
         <div data-aos="fade-up">
           <SectionHeading
             title="My Work"
-            subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, nobis!"
+            subtitle="Showcasing a curated selection of impactful projects that highlight my creativity, problem-solving abilities, and technical proficiency."
           />
         </div>
 
