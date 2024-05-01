@@ -1,13 +1,13 @@
 import {
-  Facebook,
-  Github,
-  Linkedin,
-  Mail,
-  MapPin,
-  Phone,
-  Twitter,
-  YoutubeIcon,
-} from "lucide-react";
+  FaYoutube,
+  FaFacebook,
+  FaTwitter,
+  FaGithub,
+  FaLinkedin,
+  FaPhone,
+  FaMailBulk,
+  FaMap,
+} from "react-icons/fa";
 
 export const navLinks = [
   {
@@ -224,17 +224,17 @@ export const reviews = [
     socialLinks: [
       {
         id: 1,
-        icon: Facebook,
+        icon: FaFacebook,
         url: "#",
       },
       {
         id: 2,
-        icon: Linkedin,
+        icon: FaLinkedin,
         url: "#",
       },
       {
         id: 3,
-        icon: Twitter,
+        icon: FaTwitter,
         url: "#",
       },
     ],
@@ -249,17 +249,17 @@ export const reviews = [
     socialLinks: [
       {
         id: 1,
-        icon: Facebook,
+        icon: FaFacebook,
         url: "#",
       },
       {
         id: 2,
-        icon: Linkedin,
+        icon: FaLinkedin,
         url: "#",
       },
       {
         id: 3,
-        icon: Twitter,
+        icon: FaTwitter,
         url: "#",
       },
     ],
@@ -274,17 +274,17 @@ export const reviews = [
     socialLinks: [
       {
         id: 1,
-        icon: Facebook,
+        icon: FaFacebook,
         url: "#",
       },
       {
         id: 2,
-        icon: Linkedin,
+        icon: FaLinkedin,
         url: "#",
       },
       {
         id: 3,
-        icon: Twitter,
+        icon: FaTwitter,
         url: "#",
       },
     ],
@@ -299,17 +299,17 @@ export const reviews = [
     socialLinks: [
       {
         id: 1,
-        icon: Facebook,
+        icon: FaFacebook,
         url: "#",
       },
       {
         id: 2,
-        icon: Linkedin,
+        icon: FaLinkedin,
         url: "#",
       },
       {
         id: 3,
-        icon: Twitter,
+        icon: FaTwitter,
         url: "#",
       },
     ],
@@ -324,17 +324,17 @@ export const reviews = [
     socialLinks: [
       {
         id: 1,
-        icon: Facebook,
+        icon: FaFacebook,
         url: "#",
       },
       {
         id: 2,
-        icon: Linkedin,
+        icon: FaLinkedin,
         url: "#",
       },
       {
         id: 3,
-        icon: Twitter,
+        icon: FaTwitter,
         url: "#",
       },
     ],
@@ -378,31 +378,31 @@ export const socialLinks = [
   {
     id: 1,
     label: "Facebook",
-    icon: Facebook,
+    icon: FaFacebook,
     url: "https://www.facebook.com/sami999khan999",
   },
   {
     id: 2,
     label: "Linkedin",
-    icon: Linkedin,
+    icon: FaLinkedin,
     url: "https://www.linkedin.com/in/sami999khan999/",
   },
   {
     id: 3,
     label: "Twitter",
-    icon: Twitter,
+    icon: FaTwitter,
     url: "https://twitter.com/sami999khan999",
   },
   {
     id: 4,
     label: "Twitter",
-    icon: Github,
+    icon: FaGithub,
     url: "https://github.com/sami999khan999",
   },
   {
     id: 5,
     label: "Twitter",
-    icon: YoutubeIcon,
+    icon: FaYoutube,
     url: "https://www.youtube.com/@Logarithmic_",
   },
 ];
@@ -410,20 +410,21 @@ export const socialLinks = [
 export const contactDetails = [
   {
     id: 1,
-    icon: Phone,
-    text: "+92 333 1234567",
+    icon: FaPhone,
+    text: "+880 17802-77493",
   },
   {
     id: 2,
-    icon: Mail,
-    text: "waseemaofficial@gmail.com",
+    icon: FaMailBulk,
+    text: "sami999khan999@gmail.com",
   },
   {
     id: 3,
-    icon: MapPin,
-    text: "Lahore, Pakistan",
+    icon: FaMap,
+    text: "Dhaka, Bangladesh",
   },
 ];
+
 export const timeline = [
   {
     id: 1,

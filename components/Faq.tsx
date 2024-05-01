@@ -15,7 +15,7 @@ const Faq = () => {
         />
       </div>
 
-      <div className="flex flex-col tablet:flex-row gap-5 items-start">
+      <div className="flex flex-col tablet:flex-row gap-5 items-center tablet:items-start">
         <div className="box" data-aos="fade-right">
           <Accordion data={faqs} />
         </div>
@@ -26,11 +26,12 @@ const Faq = () => {
           <div className="w-16 h-16 rounded bg-purple text-peach flex items-center justify-center flex-shrink-0 mb-2">
             <Stars fill="currentColor" size={30} />
           </div>
-          <div>
+          <div className="">
             <h5 className="text-gray-700 mb-2">Still have any questions? </h5>
-            <p className="text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-              hic eum porro molestias
+            <p className="text-gray-600 w-80">
+              If you still have any questions or need further clarification,
+              feel free to reach out to me. I'm here to help and provide
+              assistance in any way I can.
             </p>
           </div>
           <Link href={"/contact"} className="btn btn-primary w-max">
