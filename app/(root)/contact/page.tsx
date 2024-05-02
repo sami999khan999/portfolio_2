@@ -21,16 +21,15 @@ const page = () => {
             data-aos="fade-down"
             data-aos-delay={200}
           >
-            {`I'd love to here from you.`}
+            {`I'd love to hear from you.`}
           </h2>
           <p
             className="text-gray-600"
             data-aos="fade-down"
             data-aos-delay={300}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-            numquam, ipsa porro quidem cumque delectus ipsam adipisci esse earum
-            iste.
+            If you have any questions, suggestions, or business inquiries, feel
+            free to reach out to me using the contact details below.
           </p>
         </div>
       </section>

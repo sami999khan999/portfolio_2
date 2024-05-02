@@ -20,10 +20,9 @@ const page = () => {
             MY Creative Portfolio
           </h2>
           <p className="text-gray600" data-aos="fade-down" data-aos-delay={400}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
-            quod quibusdam. Earum neque eaque, consequuntur officia delectus
-            expedita, et non molestiae obcaecati accusamus debitis odio
-            aspernatur culpa molestias laboriosam dolores!
+            If you're curious about my creative works, take a look at the
+            projects I've completed. Each project reflects my dedication and
+            creativity in the field.
           </p>
         </div>
       </section>
