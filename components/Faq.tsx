@@ -29,9 +29,9 @@ const Faq = () => {
           <div className="">
             <h5 className="text-gray-700 mb-2">Still have any questions? </h5>
             <p className="text-gray-600 w-80">
-              `If you still have any questions or need further clarification,
-              feel free to reach out to me. I'm here to help and provide
-              assistance in any way I can.`
+              If you still have any questions or need further clarification,
+              feel free to reach out to me. I`m here to help and provide
+              assistance in any way I can.
             </p>
           </div>
           <Link href={"/contact"} className="btn btn-primary w-max">
