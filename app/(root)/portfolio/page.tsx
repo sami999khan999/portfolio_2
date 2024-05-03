@@ -20,9 +20,9 @@ const page = () => {
             MY Creative Portfolio
           </h2>
           <p className="text-gray600" data-aos="fade-down" data-aos-delay={400}>
-            If you're curious about my creative works, take a look at the
+            `If you're curious about my creative works, take a look at the
             projects I've completed. Each project reflects my dedication and
-            creativity in the field.
+            creativity in the field.`
           </p>
         </div>
       </section>
