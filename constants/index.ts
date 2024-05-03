@@ -142,77 +142,18 @@ export const portfolios = [
   },
   {
     id: 4,
-    title: "Current Vandi Website",
-    category: "Next",
-    link: "#",
-    github: "#",
-    images: [
-      "/images/portfolio-4.png",
-      "/images/portfolio-5.png",
-      "/images/portfolio-6.png",
-    ],
-  },
-  {
-    id: 5,
-    title: "Fit Fusion Gym Website",
+    title: "TechTrail",
     category: "React",
-    link: "#",
-    github: "#",
+    link: "https://tech-trail.vercel.app/",
+    github: "https://github.com/sami999khan999/tech-trail",
     images: [
-      "/images/portfolio-5.png",
-      "/images/portfolio-6.png",
-      "/images/portfolio-7.png",
-    ],
-  },
-  {
-    id: 6,
-    title: "DX Digital Agency Website",
-    category: "Next",
-    link: "#",
-    github: "#",
-    images: [
-      "/images/portfolio-6.png",
-      "/images/portfolio-7.png",
-      "/images/portfolio-8.png",
-    ],
-  },
-  {
-    id: 7,
-    title: "Little Learners Website",
-    category: "React",
-    link: "#",
-    github: "#",
-    images: [
-      "/images/portfolio-7.png",
-      "/images/portfolio-8.png",
-      "/images/portfolio-9.png",
-    ],
-  },
-  {
-    id: 8,
-    title: "StreamVibe Website",
-    category: "React",
-    link: "#",
-    github: "#",
-    images: [
-      "/images/portfolio-8.png",
-      "/images/portfolio-9.png",
-      "/images/portfolio-4.png",
-    ],
-  },
-  {
-    id: 9,
-    title: "YourBank Website",
-    category: "React",
-    link: "#",
-    github: "#",
-    images: [
-      "/images/portfolio-9.png",
-      "/images/portfolio-4.png",
-      "/images/portfolio-5.png",
+      "/images/portfolio-10.png",
+      "/images/portfolio-11.png",
+      "/images/portfolio-12.png",
     ],
   },
 ];
+
 export const reviews = [
   {
     id: 1,

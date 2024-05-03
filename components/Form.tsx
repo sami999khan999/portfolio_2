@@ -1,6 +1,8 @@
 "use client";
 
-import React, { ChangeEvent, useState } from "react";
+import React, { ChangeEvent, FormEvent, useState } from "react";
+import emailjs from "@emailjs/browser";
+import toast from "react-hot-toast";
 
 const Form = () => {
   const [form, setForm] = useState({
@@ -11,14 +13,48 @@ const Form = () => {
     message: "",
   });
 
+  const templateId = "template_wfvg3ze";
+  const serviceId = "service_mi02xbb";
+  const publicKey = "B7ZbiG-5itYXTy4df";
+
   const formHandler = (
     e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
+  const submitHandler = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    const templateParams = {
+      from_name: form.firstName + " " + form.lastName,
+      from_email: form.email,
+      phone: form.phone,
+      message: form.message,
+      to_name: "Sami Khan",
+    };
+
+    emailjs
+      .send(serviceId, templateId, templateParams, publicKey)
+      .then((res) => {
+        setForm({
+          firstName: "",
+          lastName: "",
+          email: "",
+          phone: "",
+          message: "",
+        });
+
+        console.log(res);
+        toast.success("Mail sent");
+      })
+      .catch((err) => {
+        toast.error("Couldn't send Mail");
+      });
+  };
+
   return (
-    <form action="" className="space-y-5">
+    <form action="" className="space-y-5" onSubmit={submitHandler}>
       <div
         className="flex gap-5 max-tablet:flex-col"
         data-aos="fade"

@@ -102,12 +102,12 @@ const page = () => {
           data-aos="fade-left"
           data-aos-delay={100}
         >
-          <Image
+          {/* <Image
             src={"/images/hero.png"}
             alt="heroImage"
             fill
             className="object-cover"
-          />
+          /> */}
         </div>
       </section>
 
